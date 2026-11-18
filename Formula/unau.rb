@@ -1,25 +1,25 @@
 class Unau < Formula
   desc "Terminal code review that ends in a file an agent can act on"
   homepage "https://github.com/KonstantinKai/unau"
-  version "0.5.1"
+  version "0.5.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/KonstantinKai/unau/releases/download/v0.5.1/unau-aarch64-apple-darwin.tar.xz"
-      sha256 "afe46f9262e4ebbe07da35a2abb4a092232632b39e7beef340dfd9c8c3374195"
+      url "https://github.com/KonstantinKai/unau/releases/download/v0.5.2/unau-aarch64-apple-darwin.tar.xz"
+      sha256 "d816a140d2c5b632c0f17a882bfc6f1f5798fc7f18a5c3f8b8bd345e69416eb8"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/KonstantinKai/unau/releases/download/v0.5.1/unau-x86_64-apple-darwin.tar.xz"
-      sha256 "0fa6b574f8b40f04dc05a6f1639096c139bbe23fe9f60cd26d525d72c88e67cf"
+      url "https://github.com/KonstantinKai/unau/releases/download/v0.5.2/unau-x86_64-apple-darwin.tar.xz"
+      sha256 "67f36981ab021680f37e7a6029f59f94276029003b9bfd026aea3749139e1a4a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/KonstantinKai/unau/releases/download/v0.5.1/unau-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "63e66b88f2b9baef5e24d80824cab080e003be5dd1e13477c85e0eba8daa9c7e"
+      url "https://github.com/KonstantinKai/unau/releases/download/v0.5.2/unau-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "e0ef72b951ee9b21124946431e5a1e74fcb725dff4f452a3c775965ea8022130"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/KonstantinKai/unau/releases/download/v0.5.1/unau-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "9a317d039b7e548b0bede482768ec85899041081926655e74b3e2d25386bd591"
+      url "https://github.com/KonstantinKai/unau/releases/download/v0.5.2/unau-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "2cec00996cdb8ddb3bee51c687fca234e21a9bff801240ad5b3bc0b4e8cf35b3"
     end
   end
   license "MIT"
